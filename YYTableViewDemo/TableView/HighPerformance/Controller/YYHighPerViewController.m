@@ -122,7 +122,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return (15 + 80 + 15 + 1);
+    return [YYHighPerTableViewCell getCellHeight];
 }
 
 #pragma mark - 懒加载

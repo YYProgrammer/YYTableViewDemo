@@ -19,6 +19,8 @@
 #define NEW_CAR_IMAGE_WIDTH_IN_BIG_CELL 50
 #define TIP_IMAGE_TOP_OFFSET_PROPORTION (5.0 / 62.0)
 
+static float CELL_HEIGHT = 15.0 + 80 + 15 + 1;
+
 @interface YYHighPerTableViewCell ()
 
 @property (nonatomic,strong) UIImageView *carImageView;//展示图
@@ -65,7 +67,7 @@
 
 + (CGFloat)getCellHeight
 {
-    return 15.0 + 80 + 15 + 1;
+    return CELL_HEIGHT;
 }
 
 - (void)setModel:(YYHighPerCarModel *)model

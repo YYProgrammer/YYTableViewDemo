@@ -20,8 +20,6 @@
 #define CAR_PRICE_FRONT_LABEL_FONT [UIFont systemFontOfSize:16]
 #define CAR_PRICE_BEHIND_LABEL_FONT [UIFont systemFontOfSize:13]
 
-static CGFloat SMALL_CELL_HEIGHT = 15 + 80 + 15 + 1;
-
 @interface YYHighPerCarModel : NSObject
 
 @property (nonatomic,strong) NSString *checkCityName;//车源城市名
